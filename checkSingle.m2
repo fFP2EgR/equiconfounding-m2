@@ -3,7 +3,7 @@ sVars = sub(n*(n+1)/2, ZZ); -- Anzahl der Einträge der Matrix Sigma
 
 load "colGraphs.m2";
 
--- Eingabe der betrachteten gerichteten Struktur. Die Eingabe p={1,0,0,0,1,0,0,1,0,1} wird beispielsweise in die Matrix  
+-- Eingabe der betrachteten gerichteten Struktur. Die Eingabe d={1,0,0,0,1,0,0,1,0,1} wird beispielsweise in die Matrix  
 -- (-  1  0  0  0)
 -- (-  -  1  0  0)
 -- (-  -  -  1  0)
