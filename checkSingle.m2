@@ -22,8 +22,9 @@ d = {1,0,0,0,1,0,0,1,0,1};
 -- umgewandelt. Die Farbe einer Kante i <-> j ist dann über den Eintrag an der Stelle (i,j) festgelegt. Der Graph enthält eine Kante genau dann, wenn der 
 -- entsprechende Eintrag ungleich Null ist.
 
-p = {0,2,3,4,0,6,7,0,9,0};
+p = {1,0,0,1,5,0,0,8,0,10};
 
+tries = 20; -- Anzahl der zufälligen Sigma-Matrizen, die zur Überprüfung der Identifizierbarkeit verwendet werden
 R = QQ[for i in 1..(sVars-n) list l_i];
 
 L = mutableMatrix id_(R^n);
